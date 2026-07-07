@@ -1,8 +1,9 @@
 /*
  * File:   main.c
- * Updated for UART ? CLCD scrolling with echo
+ * Author: Manirul 
+ * Assignmeent: This problem show the usage of UART communication
+ * 
  */
-
 #include <xc.h>
 #include "uart.h"
 #include "clcd.h"

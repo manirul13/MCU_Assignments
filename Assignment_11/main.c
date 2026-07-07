@@ -1,3 +1,10 @@
+/*
+ * File:   main.c
+ * Author: Manirul
+ * Assignmeent: CLCD show right scrolling of message WELCOME or else
+ *
+ */
+
 #include <xc.h>
 #include "clcd.h"
 #include "matrix_keypad.h"

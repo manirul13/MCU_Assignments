@@ -1,3 +1,9 @@
+/*
+ * File:   main.c
+ * Author: Manirul
+ * Problem Statement :  
+ */
+
 #include "main.h"
 #include "timers.h"
 

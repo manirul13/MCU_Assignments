@@ -1,3 +1,10 @@
+/*
+ * File:   main.c
+ * Author: Manirul
+ * Assignmeent: Show the Authentication using Password, if correct then ok. else Access denied in CLCD screen
+ *
+ */
+
 #include <xc.h>
 #include <string.h>
 #include "clcd.h"

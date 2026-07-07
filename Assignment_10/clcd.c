@@ -8,8 +8,8 @@ static void clcd_write(unsigned char byte, unsigned char mode)
     
     CLCD_EN = HI;
     __delay_us(100);
-    CLCD_EN = LOW;
     
+    CLCD_EN = LOW;
     __delay_us(4100);
 }
 

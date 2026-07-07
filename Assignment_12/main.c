@@ -1,3 +1,9 @@
+/*
+ * File:   main.c
+ * Author: Manirul
+ * Assignmeent: Show the temperature using LM35 in CLCD screen
+ *
+ */
 #include <xc.h>
 #include <stdio.h>
 #include "adc.h"
@@ -28,7 +34,7 @@ void main(void)
         adc_value = read_adc(0);
 
         // Convert ADC value to temperature in Celsius
-        // LM35: 10 mV per °C, Vref = 5V, 10-bit ADC (0?1023)
+        // LM35: 10 mV per 'C, Vref = 5V, 10-bit ADC (0 - 1023)
         //To make 27 degree celcius multiple by 310 with adc_value
         temperature = (adc_value * 310) / 1023;
 

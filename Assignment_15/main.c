@@ -1,3 +1,8 @@
+/*
+ * File:   main.c
+ * Author: Manirul 
+ * Assignmeent: SSD numbering and store in eeprom when press the key and later can show stored number by pressing other key
+ */
 #include <xc.h>
 #include "ssd.h"
 #include "digital_keypad.h"

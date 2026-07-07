@@ -1,3 +1,9 @@
+/*
+ * File:   main.c
+ * Author: Manirul 
+ * Assignmeent: SSD self counter upto 0 to 9, if SW1 is press left marquee, else SW2 is press right marquee
+ *              and SW3 is for STOP left and right marquee;
+ */
 #include <xc.h>
 #include "ssd.h"
 #include "digital_keypad.h"

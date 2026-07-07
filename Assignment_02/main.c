@@ -1,6 +1,6 @@
 /*
  * File:   main.c
- * Author: Emertxe
+ * Author: Manirul
  * Problem Statement : Write a Embedded C program to display the multiple patterns on the LEDs controlled by the switches.
  *                     For every switch, dedicate a LEDs glow pattern.The pattern should change on key press
  */
